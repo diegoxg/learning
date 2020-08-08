@@ -21,23 +21,22 @@ body {
   font-size: 1.75em;
 }
 
-div .section h2 {
+div .sections {
+  background: #ffe1a9;
+  font-size: 16px;
+  width: 30%;
+  margin: 50px 10px 50px 10px;
+  padding: 10px;
+  border: 1px solid black;
+  float: left;
+}
+
+div .sections h2 {
   color: #ffffff;
   font-weight: normal;
   font-size: 1.25em;
   border: 1px solid black;
   width: 30%;
-  float: right;
-}
-
-div .section {
-  background: #ffe1a9;
-  font-size: 16px;
-  width: 30%;
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid black;
-  float: left;
 }
 
 .emerald {
@@ -50,4 +49,8 @@ div .section {
 
 .sapphire {
   background: #273693;
+}
+
+.paragraph {
+  padding: 10px;
 }
