@@ -1,2 +1,53 @@
 * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Ubuntu", "Sans Serif";
+}
+
+body {
+  background: #eeeeee;
+}
+
+.main {
+  width: 100%;
+  margin-top: 2.5%;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  font-weight: normal;
+  font-size: 1.75em;
+}
+
+div .section h2 {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 1.25em;
+  border: 1px solid black;
+  width: 30%;
+  float: right;
+}
+
+div .section {
+  background: #ffe1a9;
+  font-size: 16px;
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  float: left;
+}
+
+.emerald {
+  background: #279925;
+}
+
+.ruby {
+  background: #b31d1d;
+}
+
+.sapphire {
+  background: #273693;
 }
