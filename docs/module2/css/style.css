@@ -1,56 +1,96 @@
 * {
-  margin: 0px;
-  padding: 0px;
   box-sizing: border-box;
   font-family: "Ubuntu", "Sans Serif";
+  margin: 0%;
+  padding: 0%;
 }
-
 body {
   background: #eeeeee;
 }
 
 .main {
-  width: 100%;
+  width: 95%;
+  text-align: center;
+  margin: auto;
   margin-top: 2.5%;
-  text-align: center;
 }
-
 .title {
-  text-align: center;
   font-weight: normal;
   font-size: 1.75em;
 }
 
 div .sections {
   background: #ffe1a9;
-  font-size: 16px;
-  width: 30%;
-  margin: 50px 10px 50px 10px;
-  padding: 10px;
-  border: 1px solid black;
-  float: left;
+  border: 2px solid black;
 }
-
 div .sections h2 {
   color: #ffffff;
   font-weight: normal;
   font-size: 1.25em;
-  border: 1px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
   width: 30%;
+  position: relative;
+  left: 70%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+p {
+  padding: 10px;
+  text-align: justify;
+  margin-top: auto;
+  height: 180px;
+  font-size: 16px;
 }
 
 .emerald {
   background: #279925;
 }
-
 .ruby {
   background: #b31d1d;
 }
-
 .sapphire {
   background: #273693;
 }
 
-.paragraph {
-  padding: 10px;
+/*Desktop devices*/
+@media (min-width: 992px) {
+  .sections {
+    float: left;
+    margin: 2.5% auto;
+  }
+  .a, .b, .c {
+    width: 32%;
+    margin-left: 0.66%;
+    margin-right: 0.66%;
+  }
+}
+/*Tablet devices*/
+@media (min-width: 768px) and (max-width: 991px){
+  .sections {
+    float: left;
+    margin: 2.5% auto;
+  }
+  .a, .b {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+  .c {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+}
+/*Mobile devices*/
+@media (max-width: 767px) {
+  .sections {
+    float: left;
+    margin: 2.5% auto;
+  }
+  .a, .b, .c {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
 }
